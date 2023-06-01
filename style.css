@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+.button{
+    background-color:hsl(224, 30%, 27%) ;
+    border-radius: 30px;
+    height: 3rem;
+    width: 20rem;
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.categoryScore{
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: hsl(224, 30%, 27%);
+    font-size: 18px;
+    display: flex;
+}
+
+.firstResult{
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.great{
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+.headerWrapper{
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%)) ;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 20rem;
+    display: flex;
+    align-items: center ; 
+    flex-direction: column;
+}
+
+.hundredScore{
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: hsl(224, 30%, 70%);
+    font-size: 17px;
+}
+
+.maxResult{
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: hsla(0, 0%, 70%);
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+}
+.memory{
+    font-size: 18px;
+    text-align: left;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    color: hsl(39, 100%, 56%);
+    display: flex;
+    align-items: center;
+
+}
+.memoryWrapper{
+    background-color: hsl(39, 100%, 97%);
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    height: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.reaction{
+    font-size: 18px;
+    text-align: left;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    color: hsl(0, 100%, 67%);
+    display: flex;
+    align-items: center;
+}
+.reactionWrapper{
+    background-color: hsl(0, 100%, 97%);
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    height: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.result{
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.scoreText{
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: hsla(0, 0%, 70%);
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    padding: 0rem 1rem;
+}
+
+.scoreWrapper{
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.summaryWrapper{
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.summary{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    color: hsl(224, 30%, 15%);
+}
+
+.verbal{
+    font-size: 18px;
+    text-align: left;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    color: hsl(166, 100%, 37%);
+    display: flex;
+    align-items: center;
+}
+.verbalWrapper{
+    background-color: hsl(166, 100%, 98%);
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    height: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.visual{
+    font-size: 18px;
+    text-align: left;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    color: hsl(234, 85%, 45%);
+    display: flex;
+    align-items: center;
+}
+
+.visualWrapper{
+    background-color: hsl(234, 85%, 98%);
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    height: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+
