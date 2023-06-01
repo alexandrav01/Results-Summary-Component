@@ -13,6 +13,13 @@
     justify-content: center;
 }
 
+.buttonWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
 .categoryScore{
     font-family: 'Hanken Grotesk', sans-serif;
     color: hsl(224, 30%, 27%);
