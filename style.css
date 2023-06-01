@@ -223,4 +223,255 @@
     justify-content: space-between;
 }
 
+@media only screen and (min-width:500px){
+    .componentWrapper{
+        /* border:solid 4px red; */
+        border-radius: 30px;
+        width: 36rem;
+        height: 26rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 10px 0px 20px hsl(221, 64%, 96%);
+        
+    }
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+       
+    }
+
+    .button{
+        background-color:hsl(226, 91%, 5%) ;
+        border-radius: 30px;
+        height: 3rem;
+        width: 15rem;
+        font-family: 'Hanken Grotesk', sans-serif;
+        color: white;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .buttonWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: -1rem;
+        
+    }
+    
+    .categoryScore{
+        font-family: 'Hanken Grotesk', sans-serif;
+        color: hsl(224, 30%, 27%);
+        font-size: 18px;
+        display: flex;
+    }
+    
+    .categoryScoreWrapper{
+        display: flex;
+        justify-content: right;
+    }
+    
+    .firstResult{
+        font-family: 'Hanken Grotesk', sans-serif;
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        font-weight: 700;
+    }
+    
+    .great{
+        font-family: 'Hanken Grotesk', sans-serif;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 700;
+        margin-top: 2rem;
+    }
+    
+    .headerWrapper{
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%)) ;
+        border-radius: 30px;
+        height: 26rem;
+        width: 18rem;
+        display: flex;
+        align-items: center ; 
+        flex-direction: column;
+    }
+    
+    .hundredScore{
+        font-family: 'Hanken Grotesk', sans-serif;
+        color: hsl(224, 30%, 70%);
+        font-size: 17px;
+    }
+    
+    .maxResult{
+        font-family: 'Hanken Grotesk', sans-serif;
+        color: hsla(0, 0%, 70%);
+        font-size: 14px;
+        text-align: center;
+        font-weight: 500;
+    }
+    .memory{
+        font-size: 18px;
+        text-align: left;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-weight: 500;
+        color: hsl(39, 100%, 56%);
+        display: flex;
+        align-items: center;
+    
+    }
+    .memoryWrapper{
+        background-color: hsl(39, 100%, 97%);
+        padding: 1rem;
+        margin-right: 1rem;
+        border-radius: 10px;
+        height: 1rem;
+        margin-left: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .reaction{
+        font-size: 18px;
+        text-align: left;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-weight: 500;
+        color: hsl(0, 100%, 67%);
+        display: flex;
+        align-items: center;
+    }
+    .reactionWrapper{
+        background-color: hsl(0, 100%, 97%);
+        padding: 1rem;
+        margin-right: 1rem;
+        border-radius: 10px;
+        height: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    
+    .result{
+        font-family: 'Hanken Grotesk', sans-serif;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    
+    .scoreText{
+        font-family: 'Hanken Grotesk', sans-serif;
+        color: hsla(0, 0%, 70%);
+        font-size: 18px;
+        text-align: center;
+        font-weight: 500;
+        padding: 0rem 1rem;
+    }
+    
+    .scoreWrapper{
+        background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+        width: 9rem;
+        height: 9rem;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+    
+    .summaryWrapper{
+        font-family: 'Hanken Grotesk', sans-serif;
+        background-color: white;
+        height: 24rem;
+        width: 18rem;
+        padding: 1rem;
+        border-bottom-right-radius: 30px ;
+        border-top-right-radius: 30px ;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+    
+    .summary{
+        font-size: 20px;
+        text-align: left;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-weight: 500;
+        color: hsl(224, 30%, 15%);
+    }
+    
+    .verbal{
+        font-size: 18px;
+        text-align: left;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-weight: 500;
+        color: hsl(166, 100%, 37%);
+        display: flex;
+        align-items: center;
+    }
+    .verbalWrapper{
+        background-color: hsl(166, 100%, 98%);
+        padding: 1rem;
+        margin-right: 1rem;
+        border-radius: 10px;
+        height: 1rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .visual{
+        font-size: 18px;
+        text-align: left;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        font-weight: 500;
+        color: hsl(234, 85%, 45%);
+        display: flex;
+        align-items: center;
+    }
+    
+    .visualWrapper{
+        background-color: hsl(234, 85%, 98%);
+        padding: 1rem;
+        margin-right: 1rem;
+        border-radius: 10px;
+        height: 1rem;
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
 
